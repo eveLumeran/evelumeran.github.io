@@ -1,16 +1,16 @@
 /****** index.css ******/
 html {  touch-action: manipulation;}html.desktop,html .desktop body {  overflow: hidden;  width: 100%;}html .left {  float: left;}html .right {  float: right;}html .clr {  clear: both;  font-size: 0;}html .hide {  display: none;}html ::selection {  background: #EBD57B;}html ::-moz-selection {  background: #EBD57B;}html body {  margin: 0;  padding: 0;  font: 12px "Montserrat",sans-serif;  position: relative;  transition: opacity 0.5s ease-out;  opacity: 0;  color: #333;}html body * {  box-sizing: border-box;}html body a,html body a:link,html body a:active,html body a:visited {  outline: 0;  color: red;  text-decoration: none;  transition: color 0.3s ease-out, opacity 0.3s ease-out;}html body a:hover {  color: #EBD57B;}html body a:link {  -webkit-tap-highlight-color: transparent;}html body hr {  margin-top: 5rem;}
 
-/****** PageNotFound.css ******/
-
+/****** MyStoryPage.css ******/
+#MyStoryPage_cholod0f72fedca9b63fb34fecb765156c151_nk8__bigger-text__8ie {  font-size: 1.5em !important;  text-align: center;  line-height: 1.6em;}
 
 /****** PageSpinner.css ******/
 .PageSpinner_cholo9959b69df42d3fd0cd60d403dff2336b_nk8__page-spinner__8ie {  background-color: #EBD57B;}
 
-/****** MyStoryPage.css ******/
-#MyStoryPage_cholod0f72fedca9b63fb34fecb765156c151_nk8__bigger-text__8ie {  font-size: 1.5em !important;  text-align: center;  line-height: 1.6em;}
-
 /****** TestimonialsPage.css ******/
+
+
+/****** PageNotFound.css ******/
 
 
 /****** WhatIDoPage.css ******/
