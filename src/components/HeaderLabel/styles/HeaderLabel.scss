@@ -1,0 +1,10 @@
+@import 'sass/util', 'sass/variables';
+
+.__ixr[header] {
+    font-family: 'Dancing Script', cursive;
+    color: $link-normal-color;
+    font-size: 3em;
+    @include media-breakpoint-down(md) {
+        font-size: 2em;
+    }  
+}

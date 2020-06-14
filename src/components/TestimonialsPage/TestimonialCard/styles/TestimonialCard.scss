@@ -1,0 +1,57 @@
+@import 'sass/util', 'sass/variables';
+
+.__ixr[testimonialCardCon] {
+    position: relative;
+    border-bottom: 1px solid #ccc;
+    min-height: 150px;
+    &:last-child {
+        border: 0;
+    }
+    //@include small-shadow();
+    &.__ixr[photoPosition-left] {
+        .__ixr[pictureCon] {
+            left: 15px;
+            margin-right: 10px;
+        }
+        .__ixr[txt] {
+            padding-left: 100px;
+        }
+    }
+    &.__ixr[photoPosition-right] {
+        .__ixr[pictureCon] {    
+            right: 15px;
+            margin-left: 10px;
+        }
+        .__ixr[txt] {
+            padding-right: 100px;
+        }
+    }
+    .__ixr[pictureCon] {
+        position: absolute;
+        top:5px;
+        border-radius: 60px;
+        overflow: hidden;
+        max-width: 90px;
+        max-height: 90px;   
+        border: 1px solid $link-normal-color; 
+        img.__ixr[photo] {            
+            width: 90px;
+            height: 90px; 
+        }
+    } 
+    .__ixr[txt] {
+        &:before {
+            content: '"';            
+            font-size: 2rem;
+            font-family: 'Dancing Script', cursive;
+            color: #ccc;
+        }
+    } 
+    @include media-breakpoint-down(md) {
+        .__ixr[pictureCon] {
+            top: 30px;            
+        } 
+    }  
+    
+    
+}

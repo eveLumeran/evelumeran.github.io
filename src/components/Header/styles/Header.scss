@@ -1,0 +1,71 @@
+@import 'sass/util', 'sass/variables';
+
+.bg-raffy-navbar {
+    //background-color: #fff;
+    background-color: $primary-color;
+    border-bottom: 2px solid $link-normal-color;
+    @include small-shadow();
+    @include media-breakpoint-up(md) {
+        // See: https://cssgradient.io/
+        // background: linear-gradient(180deg, rgba(255,255,255,1) 78%, rgba(255,255,255,0.3561799719887955) 100%);
+        padding: 1.2rem 6rem;
+    }
+    @include media-breakpoint-down(md) {
+        padding: 0.5rem 1rem;        
+    }
+    .__ixr[profile-pic] {
+        img {
+            width: 130px;
+            height: 130px;
+            border-radius: 76px;
+        }
+        @include media-breakpoint-down(md) {
+            img {
+                width: 80px;
+                height: 80px;
+                border-radius: 76px;
+            }
+        }        
+    }
+    .__ixr[initial-profile-pic] {
+        @include blur(6);        
+    }
+    .navbar-toggler {
+        background-color: $accent-color;
+    }
+    #__ixr[responsive-navbar-nav] {
+        .nav-item {
+            font-size: 1.3em; 
+            text-transform: uppercase;
+            margin-right: 3px;            
+            .nav-link {
+                font-size: 0.8em;
+                color: #A9A9AE;
+                transition: background-color 0.5s ease-out;
+                &:hover,
+                &.active {
+                    color: $dark-font-color;
+                    background-color: $link-highlight-color;
+                }
+            }
+        }
+        @include media-breakpoint-down(md) {
+            margin-top: 30px;
+            .nav-item {
+                text-align: center; 
+                padding: 8px;
+                margin: 0;
+                margin-bottom: 5px;
+                //background-color: $link-highlight-color;                
+                .nav-link {
+                    //color: #fff;
+                    &.active {
+                        font-weight: bold;
+                        color: $link-normal-color;
+                        background-color: transparent;
+                    }
+                }
+            }
+        }   
+    }
+}
