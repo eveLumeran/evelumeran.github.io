@@ -2,55 +2,55 @@
 
 .__ixr[testimonialCardCon] {
     position: relative;
-    border-bottom: 1px solid #ccc;
     min-height: 150px;
-    &:last-child {
-        border: 0;
-    }
-    //@include small-shadow();
-    &.__ixr[photoPosition-left] {
-        .__ixr[pictureCon] {
-            left: 15px;
-            margin-right: 10px;
-        }
-        .__ixr[txt] {
-            padding-left: 100px;
-        }
-    }
-    &.__ixr[photoPosition-right] {
-        .__ixr[pictureCon] {    
-            right: 15px;
-            margin-left: 10px;
-        }
-        .__ixr[txt] {
-            padding-right: 100px;
-        }
+    $photoSize: 150px;
+    &.__ixr[darkerShade] {
+        background-color: #F4F4F4;
     }
     .__ixr[pictureCon] {
-        position: absolute;
-        top:5px;
-        border-radius: 60px;
+        border-radius: 50%;
+        display: block;
         overflow: hidden;
-        max-width: 90px;
-        max-height: 90px;   
-        border: 1px solid $link-normal-color; 
+        max-width: $photoSize;
+        max-height: $photoSize;   
         img.__ixr[photo] {            
-            width: 90px;
-            height: 90px; 
+            width: $photoSize;
+            height: $photoSize; 
         }
     } 
     .__ixr[txt] {
-        &:before {
-            content: '"';            
-            font-size: 2rem;
-            font-family: 'Dancing Script', cursive;
+        .__ixr[clientName] {
+            font-size: 1.2em;
+        }
+        .__ixr[clientTitle] {
+            font-size: 0.8em;
             color: #ccc;
+            line-height: 1em;
+            vertical-align: top;
+            font-style: italic;
+        }
+        .__ixr[testimonialText] {
+            font-size: 0.8em;
+        }
+        &.text-right {
+            padding-left: 20px;
+        }
+        &.text-left {
+            padding-right: 20px;
         }
     } 
-    @include media-breakpoint-down(md) {
-        .__ixr[pictureCon] {
-            top: 30px;            
+    @include media-breakpoint-down(md) { // mobile
+        .__ixr[clientName], .__ixr[clientTitle] {
+            text-align: center !important;     
+            display: block;     
         } 
+        .__ixr[testimonialText] {
+            text-align: justify !important;    
+            margin-top: 20px;
+        }
+        &.__ixr[darkerShade] {
+            background-color: transparent;
+        }
     }  
     
     

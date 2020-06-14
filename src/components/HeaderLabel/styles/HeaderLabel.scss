@@ -4,7 +4,22 @@
     font-family: 'Dancing Script', cursive;
     color: $link-normal-color;
     font-size: 3em;
-    @include media-breakpoint-down(md) {
+    @include media-breakpoint-down(md) { // mobile
         font-size: 2em;
+        text-align: center;
+    }  
+}
+.__ixr[separator] {
+    display: none;
+    @include media-breakpoint-down(md) { // mobile
+        display: block;
+        width: 100%;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        div {
+            width: 20%;
+            border-top: 1px solid red;
+            margin: 0 auto;
+        }
     }  
 }

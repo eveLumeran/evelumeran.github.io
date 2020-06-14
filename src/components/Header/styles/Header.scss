@@ -49,8 +49,14 @@
                 }
             }
         }
+        .__ixr[onMobileOnlyNav] {
+            display: none;
+        }
         @include media-breakpoint-down(md) {
             margin-top: 30px;
+            .__ixr[onMobileOnlyNav] {
+                display: block;
+            }
             .nav-item {
                 text-align: center; 
                 padding: 8px;

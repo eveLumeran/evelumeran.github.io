@@ -1,3 +1,3 @@
-.__ixr[header]{font-family:'Dancing Script', cursive;color:#16B3AA;font-size:3em}@media (max-width: 991.98px){.__ixr[header]{font-size:2em}}
+.__ixr[header]{font-family:'Dancing Script', cursive;color:red;font-size:3em}@media (max-width: 991.98px){.__ixr[header]{font-size:2em;text-align:center}}.__ixr[separator]{display:none}@media (max-width: 991.98px){.__ixr[separator]{display:block;width:100%;padding-top:20px;padding-bottom:10px}.__ixr[separator] div{width:20%;border-top:1px solid red;margin:0 auto}}
 
 /*# sourceMappingURL=HeaderLabel.css.map */

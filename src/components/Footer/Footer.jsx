@@ -8,7 +8,7 @@ import BookACall from 'components/BookACall';
 export default function Footer(props) {
     return (
         <footer className={`${ css.footerCon } fixed-bottom text-center p-2`}>
-            <a href={ constants.uri.facebook } target="_blank">
+            <a href={ constants.uri.facebook } target="_blank" rel="noreferrer">
                 <i className="fab fa-facebook"></i>
                 Facebook
             </a>
@@ -16,12 +16,11 @@ export default function Footer(props) {
                 <i className="fas fa-handshake"></i>
                 Book a Call
             </BookACall>
-            <a href={ `tel:${ constants.phoneNumber }` } target="_blank">
+            <a href={ `tel:${ constants.phoneNumber }` } target="_blank" rel="noreferrer">
                 <i className="fas fa-phone-square-alt"></i>
                 +{ constants.phoneNumber }
             </a>
         </footer> 
     );
 }
-Footer.propTypes = {};
     
