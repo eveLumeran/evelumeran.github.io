@@ -7,23 +7,23 @@ html {  touch-action: manipulation;}html.desktop,html .desktop body {  overflow:
 /****** PageSpinner.css ******/
 .PageSpinner_cholo9959b69df42d3fd0cd60d403dff2336b_nk8__page-spinner__8ie {  background-color: #EBD57B;}
 
-/****** MyStoryPage.css ******/
-#MyStoryPage_cholod0f72fedca9b63fb34fecb765156c151_nk8__bigger-text__8ie {  font-size: 1.5em !important;  text-align: center;  line-height: 1.6em;}
+/****** WhatIDoPage.css ******/
+
 
 /****** TestimonialsPage.css ******/
 
 
-/****** WhatIDoPage.css ******/
-
+/****** MyStoryPage.css ******/
+#MyStoryPage_cholod0f72fedca9b63fb34fecb765156c151_nk8__bigger-text__8ie {  font-size: 1.5em !important;  text-align: center;  line-height: 1.6em;}
 
 /****** Layout.css ******/
 #Layout_cholo754868b7f7b8838426faf9bfa1146458_nk8__pages-wrapper__8ie {  margin-top: 200px;}@media (max-width: 991.98px) {  #Layout_cholo754868b7f7b8838426faf9bfa1146458_nk8__pages-wrapper__8ie {    margin-top: 100px;  }}
 
-/****** HeaderLabel.css ******/
-.HeaderLabel_cholo584917c2a56bca424f1c8b0ad9a34298_nk8__header__8ie {  font: 3em 'Dancing Script', cursive;  color: red;}@media (max-width: 991.98px) {  .HeaderLabel_cholo584917c2a56bca424f1c8b0ad9a34298_nk8__header__8ie {    font-size: 2em;    text-align: center;  }}.HeaderLabel_cholo584917c2a56bca424f1c8b0ad9a34298_nk8__separator__8ie {  display: none;}@media (max-width: 991.98px) {  .HeaderLabel_cholo584917c2a56bca424f1c8b0ad9a34298_nk8__separator__8ie {    display: block;    width: 100%;    padding-top: 20px;    padding-bottom: 10px;  }  .HeaderLabel_cholo584917c2a56bca424f1c8b0ad9a34298_nk8__separator__8ie div {    width: 20%;    border-top: 1px solid red;    margin: 0 auto;  }}
-
 /****** PageSection.css ******/
 .PageSection_cholo503dab9d80fbc2eac3dc8d5ecc0b286e_nk8__page-sections__8ie {  font-size: 1.3em;  transition: opacity 0.3s ease-out;  padding-top: 50px;  padding-bottom: 100px;}.PageSection_cholo503dab9d80fbc2eac3dc8d5ecc0b286e_nk8__page-sections__8ie p {  line-height: 1.7em;  display: block;  margin: 1em auto 0;}
+
+/****** HeaderLabel.css ******/
+.HeaderLabel_cholo584917c2a56bca424f1c8b0ad9a34298_nk8__header__8ie {  font: 3em 'Dancing Script', cursive;  color: red;}@media (max-width: 991.98px) {  .HeaderLabel_cholo584917c2a56bca424f1c8b0ad9a34298_nk8__header__8ie {    font-size: 2em;    text-align: center;  }}.HeaderLabel_cholo584917c2a56bca424f1c8b0ad9a34298_nk8__separator__8ie {  display: none;}@media (max-width: 991.98px) {  .HeaderLabel_cholo584917c2a56bca424f1c8b0ad9a34298_nk8__separator__8ie {    display: block;    width: 100%;    padding-top: 20px;    padding-bottom: 10px;  }  .HeaderLabel_cholo584917c2a56bca424f1c8b0ad9a34298_nk8__separator__8ie div {    width: 20%;    border-top: 1px solid red;    margin: 0 auto;  }}
 
 /****** TestimonialCard.css ******/
 .TestimonialCard_choloeee7a28cc46c24a173be950b05d4c711_nk8__testimonialCardCon__8ie {  position: relative;  min-height: 150px;}.TestimonialCard_choloeee7a28cc46c24a173be950b05d4c711_nk8__testimonialCardCon__8ie.TestimonialCard_choloeee7a28cc46c24a173be950b05d4c711_nk8__darkerShade__8ie {  background-color: #F4F4F4;}.TestimonialCard_choloeee7a28cc46c24a173be950b05d4c711_nk8__testimonialCardCon__8ie .TestimonialCard_choloeee7a28cc46c24a173be950b05d4c711_nk8__pictureCon__8ie {  border-radius: 50%;  display: block;  overflow: hidden;  max-width: 150px;  max-height: 150px;}.TestimonialCard_choloeee7a28cc46c24a173be950b05d4c711_nk8__testimonialCardCon__8ie .TestimonialCard_choloeee7a28cc46c24a173be950b05d4c711_nk8__pictureCon__8ie img.TestimonialCard_choloeee7a28cc46c24a173be950b05d4c711_nk8__photo__8ie {  width: 150px;  height: 150px;}.TestimonialCard_choloeee7a28cc46c24a173be950b05d4c711_nk8__testimonialCardCon__8ie .TestimonialCard_choloeee7a28cc46c24a173be950b05d4c711_nk8__txt__8ie .TestimonialCard_choloeee7a28cc46c24a173be950b05d4c711_nk8__clientName__8ie {  font-size: 1.2em;}.TestimonialCard_choloeee7a28cc46c24a173be950b05d4c711_nk8__testimonialCardCon__8ie .TestimonialCard_choloeee7a28cc46c24a173be950b05d4c711_nk8__txt__8ie .TestimonialCard_choloeee7a28cc46c24a173be950b05d4c711_nk8__clientTitle__8ie {  font-size: 0.8em;  color: #ccc;  line-height: 1em;  vertical-align: top;  font-style: italic;}.TestimonialCard_choloeee7a28cc46c24a173be950b05d4c711_nk8__testimonialCardCon__8ie .TestimonialCard_choloeee7a28cc46c24a173be950b05d4c711_nk8__txt__8ie .TestimonialCard_choloeee7a28cc46c24a173be950b05d4c711_nk8__testimonialText__8ie {  font-size: 0.8em;}.TestimonialCard_choloeee7a28cc46c24a173be950b05d4c711_nk8__testimonialCardCon__8ie .TestimonialCard_choloeee7a28cc46c24a173be950b05d4c711_nk8__txt__8ie.text-right {  padding-left: 20px;}.TestimonialCard_choloeee7a28cc46c24a173be950b05d4c711_nk8__testimonialCardCon__8ie .TestimonialCard_choloeee7a28cc46c24a173be950b05d4c711_nk8__txt__8ie.text-left {  padding-right: 20px;}@media (max-width: 991.98px) {  .TestimonialCard_choloeee7a28cc46c24a173be950b05d4c711_nk8__testimonialCardCon__8ie .TestimonialCard_choloeee7a28cc46c24a173be950b05d4c711_nk8__clientName__8ie,  .TestimonialCard_choloeee7a28cc46c24a173be950b05d4c711_nk8__testimonialCardCon__8ie .TestimonialCard_choloeee7a28cc46c24a173be950b05d4c711_nk8__clientTitle__8ie {    text-align: center !important;    display: block;  }  .TestimonialCard_choloeee7a28cc46c24a173be950b05d4c711_nk8__testimonialCardCon__8ie .TestimonialCard_choloeee7a28cc46c24a173be950b05d4c711_nk8__testimonialText__8ie {    text-align: justify !important;    margin-top: 20px;  }  .TestimonialCard_choloeee7a28cc46c24a173be950b05d4c711_nk8__testimonialCardCon__8ie.TestimonialCard_choloeee7a28cc46c24a173be950b05d4c711_nk8__darkerShade__8ie {    background-color: transparent;  }}
