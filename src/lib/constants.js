@@ -10,5 +10,5 @@ export default ({
         bookACall: '#'
     },
     contactEmail: 'plukgenevieve.lumeran@gmail.com',
-    phoneNumber: '63 916-338-4358'
+    phoneNumber: '63 917-905-6727'
 });
