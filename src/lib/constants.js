@@ -9,6 +9,6 @@ export default ({
         whatIDo: '/what-i-do',
         bookACall: '#'
     },
-    contactEmail: 'eve@gmail.com',
+    contactEmail: 'plukgenevieve.lumeran@gmail.com',
     phoneNumber: '63 916-338-4358'
 });
