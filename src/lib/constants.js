@@ -1,7 +1,8 @@
 export default ({
     uri: {
         instagram: 'https://www.instagram.com',
-        facebook: 'https://web.facebook.com/EvefromthePru/'
+        facebook: 'https://web.facebook.com/EvefromthePru/',
+        myGithubPageUri: 'https://evelumeran.github.io/'
     },
     routes: {
         myStory: '/',
