@@ -15,8 +15,7 @@ export default function TestimonialsPage(props) {
                 <HeaderLabel>Client Testimonials</HeaderLabel>
                 <Container>
                     <Row>
-                        <Col></Col>
-                        <Col xs={10}>
+                        <Col xs={10} className="mx-auto">
                             <TestimonialCard 
                                 photo="/images/testimonials/sample1.png" 
                                 clientName="Jack Doe" 
@@ -82,8 +81,7 @@ export default function TestimonialsPage(props) {
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean convallis tortor id 
                                 tortor iaculis, non euismod mi maximus..
                             </TestimonialCard>
-                        </Col>
-                        <Col></Col>
+                        </Col>                    
                     </Row>
                 </Container>
             </PageSection>

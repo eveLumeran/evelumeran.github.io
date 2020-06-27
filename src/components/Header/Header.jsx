@@ -32,22 +32,16 @@ export default function Header(props) {
     }
     
     function updateProfPicImage() {
-            const i = new Image();
-            //i.src = 'images/profile3_comp.webp';
-            i.src = 'images/manang-profpic-orig2.png';
-            i.onload = () => {
-                setProfPicData({
-                    // webp: 'images/profile3_comp.webp',
-                    // moz: 'images/profile3_comp_moz.jpg',
-                    // fallback: 'images/profile3_comp.jpg',
-                    
-                    webp: 'images/manang-profpic-orig2.png',
-                    moz: 'images/manang-profpic-orig2.png',
-                    fallback: 'images/manang-profpic-orig2.png',
-                    
-                    initialProfPicClass: ''
-                });
-            };
+        const i = new Image();
+        i.src = 'images/eve-profpic-circle-webp.webp';
+        i.onload = () => {
+            setProfPicData({
+                webp: 'images/eve-profpic-circle-webp.webp',
+                moz: 'images/eve-profpic-circle-moz.jpg',
+                fallback: 'images/eve-profpic-circle-orig.png',                  
+                initialProfPicClass: ''
+            });
+        };
     }
     
     useEffect(() => {
@@ -64,7 +58,7 @@ export default function Header(props) {
                 <picture className={ profPicData.initialProfPicClass } title="Hi!">
                     <source type="image/webp" srcSet={ profPicData.webp } />
                     <source type="image/jpeg" srcSet={ profPicData.moz } />
-                    <img src={ profPicData.fallback } alt="rafael gadionco" />
+                    <img src={ profPicData.fallback } alt="genevieve lumeran" />
                 </picture>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls={ css['responsive-navbar-nav'] } />
