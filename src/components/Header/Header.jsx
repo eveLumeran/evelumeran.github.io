@@ -88,7 +88,7 @@ export default function Header(props) {
                         </Nav.Link>
                     </Nav.Item>
                     <Nav.Item className={css.onMobileOnlyNav}>
-                        <Nav.Link href={`phone:${constants.phoneNumber}`} className="nav-link">
+                        <Nav.Link href={`tel:${constants.phoneNumberRaw}`} className="nav-link">
                             Call +{ constants.phoneNumber }
                         </Nav.Link>
                     </Nav.Item>
